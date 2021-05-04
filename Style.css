@@ -8,7 +8,16 @@ body{
   background-color: #21C08B; 
 }
 
-.Header img{
+.Header__img{
     width: 200px;
     padding: 8px 0px 0px 5px;
+}
+
+.Header__menu{
+    margin-right: 10px;
+}
+
+.Header__menu--profile{
+    display: flex;
+    justify-content: flex-end;
 }
