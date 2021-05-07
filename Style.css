@@ -139,6 +139,7 @@ main .main__input--container .Serch-icon{
     margin-right: 10px;
     display: inline-block;
     cursor: pointer;
+    transition: 420ms;
 } 
 
 .carousel__container .carousel-item:hover  ~ .carousel-item{
@@ -150,7 +151,7 @@ main .main__input--container .Serch-icon{
 }
 
 .carousel__container:hover .carousel-item:hover{
-    transform: scale(1.5);
+    transform: scale(1.5, 1.5);
     opacity: 1;
     transition: 420ms all;
     transform-origin: center left;
