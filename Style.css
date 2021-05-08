@@ -107,7 +107,7 @@ main .main__input--container .Serch-bar{
 }
 
 main .main__input--container .Serch-icon{
-    background-image:url(./search-icon.png);
+    background-image:url(.//assets/search-icon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
