@@ -134,12 +134,12 @@ main .main__input--container .Serch-icon{
     width: 200px;
     height: 250px;
     border-radius: 30px;
-    background-color: violet;
     overflow: hidden;
     margin-right: 10px;
     display: inline-block;
     cursor: pointer;
     transition: 420ms;
+    position: relative;
 } 
 
 .carousel__container .carousel-item:hover  ~ .carousel-item{
@@ -157,7 +157,41 @@ main .main__input--container .Serch-icon{
     transform-origin: center left;
 }
 
-.carousel__container .carousel-item .carousel-item__item1{
+.carousel__container .carousel-item .carousel__item--img{
     width: 200px;
     height: 250px;
+    object-fit: cover;
+}
+
+.carousel-item .carousel__item--detaills{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100% );
+    font-size: 10px;
+    opacity: 0;
+    transition: 420ms opacity;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+
+.carousel-item .carousel__item--detaills .carousel__detaills--icon{
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-item:hover  .carousel__item--detaills:hover {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100% );
+    font-size: 10px;
+    opacity: 1;
+    transition: 420ms opacity;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    color: white;
 }
