@@ -111,6 +111,10 @@ main .Login .Login__container .Login__container--title{
     text-decoration: none;
 }
 
+.Login__container .Login_container--form .forget:hover{
+    text-decoration: underline;
+}
+
 .Login__container .Login__container--SocialMedia{
     padding: 50px 30px;
 }
