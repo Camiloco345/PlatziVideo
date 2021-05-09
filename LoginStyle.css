@@ -150,3 +150,7 @@ main .Login .Login__container .Login__container--title{
     color: white;
     text-decoration: none;
 }
+
+.footer a:hover{
+    text-decoration: underline;
+}
