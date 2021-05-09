@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background-color: #3a9aa2;
+    background: linear-gradient(#21c08b, #ab88ff);
 }
 
 .Header{
@@ -115,11 +115,17 @@ main .Login .Login__container .Login__container--title{
     padding: 50px 30px;
 }
 
+.Login__container .Login__container--SocialMedia p{
+    margin: 0px 5px;
+}
+
 
 .Login__container .Login__container--SocialMedia .icon{
     padding: 10px 5px;
     color: white;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .Login__container .Login__container--SocialMedia .icon:hover{
