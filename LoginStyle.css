@@ -1,18 +1,152 @@
 body{
     margin: 0px;
+    background-color: #3a9aa2;
 }
 
 .Header{
     width: 100%;
     height: 80px;
-    background-color: #a07cfe;
     display: flex;
-    justify-content: space-between; 
     align-items: center;
-  }
+}
 
   .Header__img{
     width: 200px;
     padding: 8px 0px 0px 5px;
     cursor: pointer;
+}
+
+
+main .Login{
+    position: relative;
+    justify-content: space-around;
+    display: flex;
+}
+
+main .Login .Login__container{
+    height: auto;
+    width: auto;
+    border: 2px white solid;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+main .Login .Login__container .Login__container--title{
+    padding: 80px 0px 60px 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    color: white;
+    margin: 0px;
+}
+
+.Login__container .form{
+    display: flex;
+    justify-content: center;
+}
+
+.Login__container .Login_container--form ul {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+.Login__container .Login_container--form .mail{
+    height: 35px;
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 30px;
+    color: white;
+    outline: none;
+}
+
+.Login__container .Login_container--form .password{
+    height: 35px;
+    width: 250px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px 30px;
+    color: white;
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+    padding-left: 10px;
+}
+
+.Login__container .Login_container--form .log{
+    height: 45px;
+    width: 250px;
+    border-radius: 25px;
+    border: none;
+    background-color: #93b1d6;
+    margin: 20px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: medium;
+}
+
+.Login__container .Login_container--form .log:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.9);
+    background-color: #93b1d6d3;
+} 
+
+.Login__container .Login_container--form .opts{
+    font-size: small;
+    padding: 0px 30px;
+    display: flex;
+}
+
+.Login__container .Login_container--form .check{
+    color: white;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.Login__container .Login_container--form .forget{
+    color: white;
+    text-decoration: none;
+}
+
+.Login__container .Login__container--SocialMedia{
+    padding: 50px 30px;
+}
+
+
+.Login__container .Login__container--SocialMedia .icon{
+    padding: 10px 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.Login__container .Login__container--SocialMedia .icon:hover{
+    text-decoration: underline;
+}
+
+.Login__container .Login__container--register{
+    font-size: small;
+    color: white;
+    margin: 0px 0px 60px 30px;
+    cursor: pointer;
+}
+
+.Login__container .Login__container--register:hover{
+    text-decoration: underline;
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.footer a{
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
 }
