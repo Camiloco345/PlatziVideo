@@ -164,3 +164,19 @@ main .Login .Login__container .Login__container--title{
 .footer a:hover{
     text-decoration: underline;
 }
+
+@media only screen and (max-width: 600px) {
+
+        main .Login .Login__container{
+            height: auto;
+            width: auto;
+            border: none;
+            border-radius: 30px;
+            box-shadow: none;
+    }
+
+    .footer{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
